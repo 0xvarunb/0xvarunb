@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Varun Bhambri. Mariner. Engineer. Indie builder. I ship code. Sometimes literally." />
-</p>
-
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=0xvarunb&style=flat-square&color=7aa2f7&label=visitors" alt="Profile view counter">
+  <img src="./assets/hero-seascape.png" alt="A blue V-compass waypoint mark overlaid in halftone on a cinematic dark seascape with a lighthouse at twilight" />
 </p>
 
 ```
