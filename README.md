@@ -6,6 +6,19 @@
   <img src="https://komarev.com/ghpvc/?username=0xvarunb&style=flat-square&color=7aa2f7&label=visitors" alt="Profile view counter">
 </p>
 
+```
+$ whoami
+
+name:     Varun Bhambri
+role:     indie developer
+origin:   mariner
+current:  engineer
+handle:   0xvarunb
+base:     Earth (Sometimes Sea)
+
+~/waypoint     main
+```
+
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=600&color=7AA2F7&width=560&lines=Most+production+bugs+are+timezone+bugs.;Wrote+200+lines+today.+Kept+50.;Some+code+ships.+Some+stays+in+the+bilge.;Today's+commit%3A+%22this+one+actually+works%22.)](https://git.io/typing-svg)
 
 ---
@@ -72,5 +85,5 @@
 ---
 
 <p align="center">
-  <em>Currently in New Delhi. Previously, at sea.</em>
+  <em>Earth. Sometimes Sea.</em>
 </p>
