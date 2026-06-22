@@ -1,19 +1,12 @@
-<h1 align="left">
-  Varun Bhambri
-  <img align="center" alt="ship" width="48" height="48" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ship.png" />
-</h1>
-
-<p align="left"><em>Mariner. Founder at SVYFT. Indie builder.</em></p>
-
-<p align="left">
-  I ship code. Sometimes literally.
+<p align="center">
+  <img src="./assets/header.svg" alt="Varun Bhambri. Mariner. Founder at SVYFT. Indie builder. I ship code. Sometimes literally." />
 </p>
 
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=0xvarunb&style=flat-square&color=7aa2f7&label=visitors" alt="Profile view counter">
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=600&color=7AA2F7&width=520&lines=Mariner.+Builder.+(Sometimes+both.);Shipping+software%2C+sometimes+literally.;Trying+to+make+ships+smarter+than+me.+Bar+is+high.;Most+production+bugs+are+timezone+bugs.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=600&color=7AA2F7&width=560&lines=Most+production+bugs+are+timezone+bugs.;Trying+to+make+ships+smarter+than+me.+Bar+is+high.;Some+code+ships.+Some+stays+in+the+bilge.;Today's+commit%3A+%22this+one+actually+works%22.)](https://git.io/typing-svg)
 
 ---
 
@@ -27,7 +20,7 @@
 
 - **cc-world**: India's most exhaustive credit-card points optimizer. Earn and burn, optimally.
 - **etf-kidukaan**: opinionated toolkit for scanning and backtesting NSE-listed ETFs near 52-week lows.
-- **Nifty-weekly**: NIFTY hourly-close scanner that pings you the moment a Supertrend + EMA(20) setup triggers.
+- **Nifty-weekly**: NIFTY hourly-close scanner that pings the moment a Supertrend + EMA(20) setup triggers.
 - **homma_genius**: Telegram bot that runs a daily Homma weekly-status workflow for select Indian ETFs.
 
 ## Repos worth a look
@@ -73,10 +66,6 @@
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xvarunb&theme=tokyonight" />
-</p>
 
 [![Varun's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=0xvarunb&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Varun Bhambri. Mariner. Founder at SVYFT. Indie builder. I ship code. Sometimes literally.">
+  <!-- background -->
+  <rect width="1200" height="300" fill="#1a1b26"/>
+
+  <!-- subtle horizon line -->
+  <line x1="0" y1="240" x2="1200" y2="240" stroke="#414868" stroke-width="1"/>
+
+  <!-- left accent bar above name -->
+  <line x1="80" y1="110" x2="140" y2="110" stroke="#7aa2f7" stroke-width="2"/>
+
+  <!-- name -->
+  <text x="80" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="56" font-weight="600" fill="#c0caf5">Varun Bhambri</text>
+
+  <!-- positioning subtitle -->
+  <text x="80" y="205" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#a9b1d6">mariner. founder at SVYFT. indie builder.</text>
+
+  <!-- tagline, bottom-left, italic, accent color -->
+  <text x="80" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-style="italic" fill="#7aa2f7">I ship code. Sometimes literally.</text>
+
+  <!-- coordinates, top-right -->
+  <text x="1120" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#565f89" text-anchor="end">28.6° N</text>
+  <text x="1120" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#565f89" text-anchor="end">77.2° E</text>
+
+  <!-- status indicator, bottom-right -->
+  <circle cx="1062" cy="267" r="4" fill="#9ece6a"/>
+  <text x="1120" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9ece6a" text-anchor="end">shipping</text>
+</svg>
