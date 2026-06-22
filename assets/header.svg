@@ -1,6 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Varun Bhambri. Mariner. Engineer. Indie builder. I ship code. Sometimes literally.">
+  <!-- clip everything to the panel so the scan line doesn't bleed -->
+  <defs>
+    <clipPath id="panelClip">
+      <rect width="1200" height="300"/>
+    </clipPath>
+  </defs>
+
   <!-- background -->
   <rect width="1200" height="300" fill="#1a1b26"/>
+
+  <!-- radar scan line, sweeps left to right every 8s -->
+  <g clip-path="url(#panelClip)">
+    <line x1="-50" y1="0" x2="-50" y2="300" stroke="#7aa2f7" stroke-width="1" opacity="0.10">
+      <animate attributeName="x1" values="-50;1250" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-50;1250" dur="8s" repeatCount="indefinite"/>
+    </line>
+  </g>
 
   <!-- subtle horizon line -->
   <line x1="0" y1="240" x2="1200" y2="240" stroke="#414868" stroke-width="1"/>
@@ -21,7 +36,10 @@
   <text x="1120" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#565f89" text-anchor="end">28.6° N</text>
   <text x="1120" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#565f89" text-anchor="end">77.2° E</text>
 
-  <!-- status indicator, bottom-right -->
-  <circle cx="1062" cy="267" r="4" fill="#9ece6a"/>
+  <!-- status indicator, bottom-right, with pulsing dot -->
+  <circle cx="1062" cy="267" r="4" fill="#9ece6a">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="4;5;4" dur="2s" repeatCount="indefinite"/>
+  </circle>
   <text x="1120" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#9ece6a" text-anchor="end">shipping</text>
 </svg>
