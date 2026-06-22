@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Varun Bhambri. Mariner. Founder at SVYFT. Indie builder. I ship code. Sometimes literally." />
+  <img src="./assets/header.svg" alt="Varun Bhambri. Mariner. Engineer. Indie builder. I ship code. Sometimes literally." />
 </p>
 
 <p align="right">
