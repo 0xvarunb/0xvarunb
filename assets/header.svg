@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Varun Bhambri. Mariner. Founder at SVYFT. Indie builder. I ship code. Sometimes literally.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Varun Bhambri. Mariner. Engineer. Indie builder. I ship code. Sometimes literally.">
   <!-- background -->
   <rect width="1200" height="300" fill="#1a1b26"/>
 
@@ -12,7 +12,7 @@
   <text x="80" y="170" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="56" font-weight="600" fill="#c0caf5">Varun Bhambri</text>
 
   <!-- positioning subtitle -->
-  <text x="80" y="205" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#a9b1d6">mariner. founder at SVYFT. indie builder.</text>
+  <text x="80" y="205" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="400" fill="#a9b1d6">mariner. engineer. indie builder.</text>
 
   <!-- tagline, bottom-left, italic, accent color -->
   <text x="80" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-style="italic" fill="#7aa2f7">I ship code. Sometimes literally.</text>
