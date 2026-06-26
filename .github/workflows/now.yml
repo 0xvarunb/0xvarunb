@@ -1,0 +1,51 @@
+name: update now line
+
+on:
+  schedule:
+    # daily at 00:30 UTC (06:00 IST)
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - now.md
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: sync now line into README
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          now = Path('now.md').read_text().strip().splitlines()[0] if Path('now.md').exists() else ''
+          if not now:
+              raise SystemExit("now.md is empty; nothing to sync")
+
+          readme = Path('README.md').read_text()
+          updated, n = re.subn(
+              r'^now:\s+.*$',
+              f'now:      {now}',
+              readme,
+              count=1,
+              flags=re.MULTILINE,
+          )
+          if n == 0:
+              raise SystemExit("no 'now:' line found in README.md; aborting")
+
+          Path('README.md').write_text(updated)
+          print(f"updated now line to: {now}")
+          PY
+
+      - name: commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet --cached || git commit -m "chore: sync now line from now.md"
+          git push

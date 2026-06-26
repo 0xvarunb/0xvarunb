@@ -1,3 +1,13 @@
+<!--
+
+        N
+   W .  V  . E
+        S
+
+   the waypoint is where you start, not where you end.
+
+-->
+
 <p align="center">
   <img src="./assets/hero-seascape.png" alt="A blue V-compass waypoint mark overlaid in halftone on a cinematic dark seascape with a lighthouse at twilight" />
 </p>
@@ -11,6 +21,7 @@ origin:   mariner
 current:  engineer
 handle:   0xvarunb
 base:     Earth (Sometimes Sea)
+now:      shipping quietly. learning. coffee.
 
 ~/waypoint     main
 ```
