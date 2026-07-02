@@ -22,7 +22,7 @@ current:  engineer
 handle:   0xvarunb
 base:     Earth (Sometimes Sea)
 now:      shipping quietly. learning. coffee.
-pulse:    ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+pulse:    ▂▂▁▁▁▁▁▁▁▃▁▂▁▁▂█▄▁▃▃▃▄▄▅▄▂▃▃▁▁
 
 ~/waypoint     main
 ```
