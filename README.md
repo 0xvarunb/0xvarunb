@@ -22,6 +22,7 @@ current:  engineer
 handle:   0xvarunb
 base:     Earth (Sometimes Sea)
 now:      shipping quietly. learning. coffee.
+pulse:    ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 ~/waypoint     main
 ```
@@ -80,6 +81,14 @@ now:      shipping quietly. learning. coffee.
 ![Top programming languages across my public repositories, weighted by lines of code](https://github-readme-stats.vercel.app/api/top-langs/?username=0xvarunb&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
 [![Line chart of my GitHub activity over the past year](https://github-readme-activity-graph.vercel.app/graph?username=0xvarunb&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<details>
+  <summary>◇ identity system</summary>
+
+  <br/>
+  <img src="./assets/brand-board.png" alt="Brand identity board showing the V-compass waypoint logo, its construction geometry, the tokyonight color palette, JetBrains Mono typography specimen, an embossed business card mockup, and the cinematic seascape brand metaphor" />
+
+</details>
 
 ---
 

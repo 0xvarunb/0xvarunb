@@ -1,0 +1,87 @@
+name: update pulse sparkline
+
+on:
+  schedule:
+    # daily at 00:45 UTC (06:15 IST). offset from now.yml to avoid contention.
+    - cron: "45 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/pulse.yml
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: fetch contribution counts and render sparkline
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh api graphql -f query="
+          {
+            user(login: \"$OWNER\") {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      contributionCount
+                      date
+                    }
+                  }
+                }
+              }
+            }
+          }
+          " > contributions.json
+
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          data = json.loads(Path('contributions.json').read_text())
+          weeks = data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+          days = [d for w in weeks for d in w['contributionDays']]
+          days.sort(key=lambda d: d['date'])
+          last_30 = days[-30:]
+
+          counts = [d['contributionCount'] for d in last_30]
+          max_c = max(counts) if counts else 0
+
+          blocks = '▁▂▃▄▅▆▇█'
+          def bar(c):
+              if max_c == 0:
+                  return blocks[0]
+              idx = min(int((c / max_c) * (len(blocks) - 1)), len(blocks) - 1)
+              return blocks[idx]
+
+          spark = ''.join(bar(c) for c in counts)
+
+          readme = Path('README.md').read_text()
+          updated, n = re.subn(
+              r'^pulse:\s+.*$',
+              f'pulse:    {spark}',
+              readme,
+              count=1,
+              flags=re.MULTILINE,
+          )
+          if n == 0:
+              raise SystemExit("no 'pulse:' line found in README.md; aborting")
+
+          Path('README.md').write_text(updated)
+          print(f"rendered pulse (max={max_c}): {spark}")
+          PY
+
+          rm contributions.json
+
+      - name: commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet --cached || git commit -m "chore: update commit pulse sparkline"
+          git push
