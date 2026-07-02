@@ -32,36 +32,37 @@ now:      shipping quietly. learning. coffee.
 
 ## Projects
 
-- **cc-world**: India's most exhaustive credit-card points optimizer. Earn and burn, optimally.
-- **etf-kidukaan**: opinionated toolkit for scanning and backtesting NSE-listed ETFs near 52-week lows.
-- **Nifty-weekly**: NIFTY hourly-close scanner that pings the moment a Supertrend + EMA(20) setup triggers.
-- **homma_genius**: Telegram bot that runs a daily Homma weekly-status workflow for select Indian ETFs.
-
-## Repos worth a look
-
 <table>
   <tr>
-    <td>
+    <td width="50%">
       <a href="https://github.com/0xvarunb/cc-world">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=cc-world&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=cc-world&theme=tokyonight&hide_border=true" alt="GitHub stat card for cc-world, the credit-card points optimizer" />
       </a>
+      <br/>
+      <sub>India's most exhaustive credit-card points optimizer. Earn and burn, optimally.</sub>
     </td>
-    <td>
+    <td width="50%">
       <a href="https://github.com/0xvarunb/homma_genius">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=homma_genius&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=homma_genius&theme=tokyonight&hide_border=true" alt="GitHub stat card for homma_genius, the ETF status Telegram bot" />
       </a>
+      <br/>
+      <sub>Telegram bot that runs a daily Homma weekly-status workflow for select Indian ETFs.</sub>
     </td>
   </tr>
   <tr>
-    <td>
+    <td width="50%">
       <a href="https://github.com/0xvarunb/etf-kidukaan">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=etf-kidukaan&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=etf-kidukaan&theme=tokyonight&hide_border=true" alt="GitHub stat card for etf-kidukaan, the NSE ETF scanner and backtester" />
       </a>
+      <br/>
+      <sub>Opinionated toolkit for scanning and backtesting NSE-listed ETFs near 52-week lows.</sub>
     </td>
-    <td>
+    <td width="50%">
       <a href="https://github.com/0xvarunb/Nifty-weekly">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=Nifty-weekly&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=0xvarunb&repo=Nifty-weekly&theme=tokyonight&hide_border=true" alt="GitHub stat card for Nifty-weekly, the NIFTY options signal scanner" />
       </a>
+      <br/>
+      <sub>NIFTY hourly-close scanner that pings the moment a Supertrend + EMA(20) setup triggers.</sub>
     </td>
   </tr>
 </table>
@@ -71,23 +72,14 @@ now:      shipping quietly. learning. coffee.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xvarunb/0xvarunb/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xvarunb/0xvarunb/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation eating my contribution graph" src="https://raw.githubusercontent.com/0xvarunb/0xvarunb/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Animated snake traversing my GitHub contribution graph and eating the green dots" src="https://raw.githubusercontent.com/0xvarunb/0xvarunb/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-![](./profile-3d-contrib/profile-night-view.svg)
+![GitHub stats summary for 0xvarunb: total commits, PRs, issues, stars](https://github-readme-stats.vercel.app/api?username=0xvarunb&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true)
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=0xvarunb&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xvarunb&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-    </td>
-  </tr>
-</table>
+![Top programming languages across my public repositories, weighted by lines of code](https://github-readme-stats.vercel.app/api/top-langs/?username=0xvarunb&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
-[![Varun's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=0xvarunb&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Line chart of my GitHub activity over the past year](https://github-readme-activity-graph.vercel.app/graph?username=0xvarunb&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
